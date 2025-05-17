@@ -22,11 +22,3 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
-
-// Demo: Add your own JS for actual unblocking logic
-document.querySelector('.unblock-form').addEventListener('submit', function(e) {
-  e.preventDefault();
-  const url = this.querySelector('input[type="url"]').value;
-  alert("In a real unblocker, you'd be redirected to: " + url);
-  // You can implement your proxy/unblock logic here
-});
